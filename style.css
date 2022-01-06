@@ -33,9 +33,18 @@ img {
 .half-width {
     width: 50%;
 }
+.flexible-container {
+    display: flex;
+}
 .one-third-width {
     width: 30%;
-    padding: 3.33%;
+    padding: 3%;
+    margin: 1%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px -20px gray;
+}
+.one-third-width img {
+    width: 40%;
 }
 .text-purple {
     color: #AC6AFF;
@@ -63,4 +72,13 @@ img {
 }
 .center-heading h2 {
     text-align: center;
+}
+.bg-light-green {
+    background-color: rgb(198, 255, 198);
+}
+.bg-light-red {
+    background-color: rgb(255, 192, 192);
+}
+.bg-light-orange {
+    background-color: rgb(255, 220, 155);
 }
